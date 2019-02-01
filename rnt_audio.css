@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Brenden Riley
+   Date:   2.1.19
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+
+/* The audio is a block with a darkgray shadow. It appears offset from the left, with a width of 80% */
+audio {
+    display: block;
+    box-shadow: darkgrey 8px 8px 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* The audio has a background of a light blue color, it gets the dimesnsions from the browser of what to change */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
